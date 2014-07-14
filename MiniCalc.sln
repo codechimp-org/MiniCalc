@@ -1,18 +1,44 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MiniCalc", "MiniCalc\MiniCalc.vbproj", "{BCC73301-56BC-4F3E-95EC-0153F84FBC0B}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Setup", "Setup\Setup.isproj", "{BE73D294-1A3C-4197-A1D4-0893F85C0A87}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BCC73301-56BC-4F3E-95EC-0153F84FBC0B} = {BCC73301-56BC-4F3E-95EC-0153F84FBC0B}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
 		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
 		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCC73301-56BC-4F3E-95EC-0153F84FBC0B}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC73301-56BC-4F3E-95EC-0153F84FBC0B}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
 		{BCC73301-56BC-4F3E-95EC-0153F84FBC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BCC73301-56BC-4F3E-95EC-0153F84FBC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC73301-56BC-4F3E-95EC-0153F84FBC0B}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC73301-56BC-4F3E-95EC-0153F84FBC0B}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
 		{BCC73301-56BC-4F3E-95EC-0153F84FBC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCC73301-56BC-4F3E-95EC-0153F84FBC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC73301-56BC-4F3E-95EC-0153F84FBC0B}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC73301-56BC-4F3E-95EC-0153F84FBC0B}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{BE73D294-1A3C-4197-A1D4-0893F85C0A87}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{BE73D294-1A3C-4197-A1D4-0893F85C0A87}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{BE73D294-1A3C-4197-A1D4-0893F85C0A87}.Debug|Any CPU.ActiveCfg = DVD-5
+		{BE73D294-1A3C-4197-A1D4-0893F85C0A87}.Debug|Any CPU.Build.0 = DVD-5
+		{BE73D294-1A3C-4197-A1D4-0893F85C0A87}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{BE73D294-1A3C-4197-A1D4-0893F85C0A87}.DVD-5|Any CPU.Build.0 = DVD-5
+		{BE73D294-1A3C-4197-A1D4-0893F85C0A87}.Release|Any CPU.ActiveCfg = SingleImage
+		{BE73D294-1A3C-4197-A1D4-0893F85C0A87}.Release|Any CPU.Build.0 = SingleImage
+		{BE73D294-1A3C-4197-A1D4-0893F85C0A87}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{BE73D294-1A3C-4197-A1D4-0893F85C0A87}.SingleImage|Any CPU.Build.0 = SingleImage
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
